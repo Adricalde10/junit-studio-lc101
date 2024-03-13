@@ -5,9 +5,20 @@
 #### Caso 1: Cadena vacía
 - Entrada: ""
 - Salida Esperada: Verdadero (true)
-- Comentarios: Una cadena vacía debe considerarse balanceada.
+
 
 #### Caso 2: Solo corchetes simples
 - Entrada: "[]", "{}", "()"
 - Salida : Verdadero (true)
-- Comentarios: Solo corchetes simples deben devolver verdadero.
+
+#### Caso 3: Corchetes anidados
+- Entrada: "[{()}]", "{[()]}"
+- Salida Esperada: Verdadero (true)
+
+### Caso 4: Corchetes desbalanceados simples
+- Entrada: "[", "]", "{"
+- Salida Esperada: Falso (false)
+
+#### Caso 5: Corchetes desbalanceados anidados
+- Entrada: "[{)]"
+- Salida Esperada: Falso (false)
