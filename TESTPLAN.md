@@ -29,3 +29,11 @@
 #### Caso 7: Cadena con solo corchetes
 - Entrada: "[[[[[[[]]]]]]]", "{{{{{{{{}}}}}}}}"
 - Salida Esperada: Verdadero (true)
+
+#### Caso 8: Cadena larga desbalanceada
+- **Entrada**: "(((((())", "{[[[}", "{{{{{{}}}}"
+- **Salida Esperada**: Falso (false)
+
+#### Caso 9: Orden incorrecto de corchetes
+- **Entrada**: ")[", "{)", "(]"
+- **Salida Esperada**: Falso (false)
